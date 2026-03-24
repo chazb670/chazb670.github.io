@@ -33,7 +33,7 @@ $(function () {
     // TODO 2 - Create Platforms
       
      createPlatform(100, 700, 4000, 700);
-     createPlatform(1350, 200, 50, 50, "red");
+     createPlatform(1300, 100, 50, 50, "red");
      createPlatform(100,650,20,20);
      createPlatform(200,520,90,20);
      createPlatform(400,400,600,60)
@@ -43,7 +43,7 @@ $(function () {
 
     // TODO 3 - Create Collectables
     
-    createCollectable("steve", 1350, 50);
+    createCollectable("steve", 400, 360);
     createCollectable("diamond", 200, 170, 0.5, 0.7);
     createCollectable("grace",500,170) ;
 
@@ -51,7 +51,7 @@ $(function () {
     
     // TODO 4 - Create Cannons
 
-    createCannon("top", 200, 100);
+    createCannon("top", 200, 980);
     createCannon("right", 300, 2000); 
     createCannon("bottom", 500, 700);
 
