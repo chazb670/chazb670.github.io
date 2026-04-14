@@ -1,4 +1,4 @@
-var init = function (window) { todo 3
+var init = function (window) {
     'use strict';
     var 
         draw = window.opspark.draw,
@@ -64,9 +64,14 @@ var init = function (window) { todo 3
         */
         function update() {
             // TODO 4 : Update the position of each circle using physikz.updatePosition()
-
+            physikz.updatePosition
+            physikz.updatePosition
+            physikz.updatePosition
+            physikz.updatePosition
+            physikz.updatePosition
             
             // TODO 5 : Call game.checkCirclePosition() on your circles
+             game.checkCirclePosition()
            
 
             // TODO 8 / TODO 9 : Iterate over the array
